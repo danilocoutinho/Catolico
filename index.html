@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luz da Fé Católica</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="hero">
+    <nav>
+      <h1>✝️ Luz da Fé</h1>
+      <ul>
+        <li><a href="#oracoes">Orações</a></li>
+        <li><a href="#santos">Santos</a></li>
+        <li><a href="#versiculos">Versículos</a></li>
+        <li><a href="#motivacao">Motivação</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h2>Fortaleça sua fé todos os dias</h2>
+      <p>
+        Um espaço de oração, esperança e conexão com Deus.
+      </p>
+      <a href="#oracoes" class="btn">Começar Jornada</a>
+    </div>
+  </header>
+
+  <section class="frase-destaque">
+    <h2>“Entrega o teu caminho ao Senhor; confia nele, e ele tudo fará.”</h2>
+    <p>Salmos 37:5</p>
+  </section>
+
+  <section id="oracoes" class="section">
+    <h2 class="titulo">Orações Católicas</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=1200&auto=format&fit=crop" alt="Pai Nosso">
+        <h3>Pai Nosso</h3>
+        <p>
+          Pai nosso que estais nos céus, santificado seja o vosso nome;
+          venha a nós o vosso reino; seja feita a vossa vontade,
+          assim na terra como no céu...
+        </p>
+        <button onclick="mostrarMensagem('Que Deus abençoe seu coração! ✨')">Amém</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1519491050282-cf00c82424b4?q=80&w=1200&auto=format&fit=crop" alt="Ave Maria">
+        <h3>Ave Maria</h3>
+        <p>
+          Ave Maria, cheia de graça, o Senhor é convosco;
+          bendita sois vós entre as mulheres...
+        </p>
+        <button onclick="mostrarMensagem('Maria interceda por você 🙏')">Rezar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1507692049790-de58290a4334?q=80&w=1200&auto=format&fit=crop" alt="Credo">
+        <h3>Credo</h3>
+        <p>
+          Creio em Deus Pai todo-poderoso, criador do céu e da terra...
+        </p>
+        <button onclick="mostrarMensagem('Sua fé é sua força 💛')">Professar Fé</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9?q=80&w=1200&auto=format&fit=crop" alt="Espírito Santo">
+        <h3>Divino Espírito Santo</h3>
+        <p>
+          Vinde, Espírito Santo, enchei os corações dos vossos fiéis...
+        </p>
+        <button onclick="mostrarMensagem('O Espírito Santo ilumine seus caminhos ✨')">Receber Luz</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1473177104440-ffee2f376098?q=80&w=1200&auto=format&fit=crop" alt="Anjo da Guarda">
+        <h3>Anjo da Guarda</h3>
+        <p>
+          Santo Anjo do Senhor, meu zeloso guardador...
+        </p>
+        <button onclick="mostrarMensagem('Seu anjo da guarda está contigo 👼')">Proteção</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?q=80&w=1200&auto=format&fit=crop" alt="Salve Rainha">
+        <h3>Salve Rainha</h3>
+        <p>
+          Salve Rainha, Mãe de misericórdia, vida, doçura e esperança nossa...
+        </p>
+        <button onclick="mostrarMensagem('Nossa Senhora cuide de você 🌹')">Receber Bênção</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="santos" class="section santos">
+    <h2 class="titulo">Santos e Orações</h2>
+
+    <div class="santo-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Saint_Michael_Archangel_by_Guido_Reni.jpg/800px-Saint_Michael_Archangel_by_Guido_Reni.jpg" alt="São Miguel">
+      <div>
+        <h3>São Miguel Arcanjo</h3>
+        <p>
+          São Miguel Arcanjo, defendei-nos no combate...
+        </p>
+      </div>
+    </div>
+
+    <div class="santo-box reverse">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Saint_Benedict_medal.jpg" alt="São Bento">
+      <div>
+        <h3>São Bento</h3>
+        <p>
+          A cruz sagrada seja minha luz, não seja o dragão meu guia...
+        </p>
+      </div>
+    </div>
+
+    <div class="santo-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nossa_Senhora_de_Nazar%C3%A9.jpg/800px-Nossa_Senhora_de_Nazar%C3%A9.jpg" alt="Nossa Senhora de Nazaré">
+      <div>
+        <h3>Nossa Senhora de Nazaré</h3>
+        <p>
+          Ó Maria Santíssima, Nossa Senhora de Nazaré,
+          protegei nossas famílias e guiai nossos passos.
+        </p>
+      </div>
+    </div>
+
+    <div class="santo-box reverse">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sacred_Heart_of_Jesus.jpg/800px-Sacred_Heart_of_Jesus.jpg" alt="Sagrado Coração de Jesus">
+      <div>
+        <h3>Sagrado Coração de Jesus</h3>
+        <p>
+          Sagrado Coração de Jesus, eu confio e espero em vós.
+        </p>
+      </div>
+    </div>
+
+    <div class="santo-box">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Santa_Ana.jpg/800px-Santa_Ana.jpg" alt="Santa Ana">
+      <div>
+        <h3>Santa Ana</h3>
+        <p>
+          Santa Ana, mãe de Maria, intercedei por nossas famílias.
+        </p>
+      </div>
+    </div>
+
+    <div class="santo-box reverse">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sao_Benedito.jpg/800px-Sao_Benedito.jpg" alt="São Benedito">
+      <div>
+        <h3>São Benedito do Gurupá</h3>
+        <p>
+          São Benedito, rogai por nós e fortalecei nossa fé.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="versiculos" class="section versiculos">
+    <h2 class="titulo">Versículos para Fortalecer o Coração</h2>
+
+    <div class="versiculo-slider">
+      <div class="versiculo ativo">
+        “Tudo posso naquele que me fortalece.”<br>
+        <span>Filipenses 4:13</span>
+      </div>
+
+      <div class="versiculo">
+        “Não temas, porque eu sou contigo.”<br>
+        <span>Isaías 41:10</span>
+      </div>
+
+      <div class="versiculo">
+        “O Senhor é meu pastor e nada me faltará.”<br>
+        <span>Salmos 23:1</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="motivacao" class="section motivacao">
+    <h2 class="titulo">Frases de Esperança</h2>
+
+    <div class="motivacao-grid">
+      <div class="motivacao-card">
+        <h3>✨ Deus nunca abandona você</h3>
+        <p>
+          Mesmo nas dificuldades, Deus continua cuidando do seu caminho.
+        </p>
+      </div>
+
+      <div class="motivacao-card">
+        <h3>🙏 Sua dor não será eterna</h3>
+        <p>
+          Tudo passa. Confie no tempo de Deus e permaneça firme.
+        </p>
+      </div>
+
+      <div class="motivacao-card">
+        <h3>💛 Você é amado</h3>
+        <p>
+          Deus conhece o seu coração e jamais esquecerá de você.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      ✝️ Luz da Fé Católica — Que Deus ilumine sempre sua vida.
+    </p>
+  </footer>
+
+  <div id="popup" class="popup"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
